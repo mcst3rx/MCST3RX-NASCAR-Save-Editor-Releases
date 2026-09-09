@@ -20,6 +20,14 @@ https://github.com/mcst3rx/mcst3rx-nascar-save-editor-releases/releases
 
 For each release, download the installer or portable ZIP provided under **Assets**.
 
+### Which Download Should I Use?
+
+**Installer** — Recommended for most users.  
+Download the Setup `.exe` and install the editor normally.
+
+**Portable** — No installation required.  
+Download the Portable `.zip`, extract it to a folder, and launch the included application.
+
 ### Verify Your Download
 
 Official releases may include SHA-256 hashes so downloaded files can be verified against the published release.
