@@ -4,7 +4,7 @@
 
 The **MCST3RX NASCAR Save Editor** is a free community-built Windows tool for editing supported NASCAR career save data through a safety-focused, easy-to-use interface.
 
-> **Current Release:** v1.0.0  
+> **Current Release:** v1.0.1  
 > **Current Game Support:** NASCAR 25  
 > **NASCAR 26:** Future / Not Yet Supported  
 > **Platform:** Windows
