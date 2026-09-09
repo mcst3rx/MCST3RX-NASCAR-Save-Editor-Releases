@@ -119,11 +119,39 @@ Older builds remain documented through GitHub Releases.
 
 ---
 
+## 🐛 Report a Bug
+
+Found a problem with the MCST3RX NASCAR Save Editor?
+
+➡️ **Report a Bug:**  
+https://github.com/mcst3rx/mcst3rx-nascar-save-editor-releases/issues/new/choose
+
+Please use the provided **Bug Report** template so the issue includes the information needed to investigate the problem.
+
+Before submitting:
+
+- Make sure you are using the latest official release.
+- Check existing issues to see whether the problem has already been reported.
+- Include your editor version.
+- Select the affected game and area of the editor.
+- Explain the steps needed to reproduce the problem.
+- Include the exact error message when applicable.
+- Attach screenshots or a short recording when useful.
+- Keep a backup of important save files.
+
+Please do not publicly upload private or sensitive files.
+
+If a save file is eventually required for investigation, wait until MCST3RX specifically requests one and follow the provided instructions.
+
+> **NASCAR 26:** Functionality should not be reported as broken while NASCAR 26 remains marked **Future / Not Yet Supported**.
+
+---
+
 ## 🔒 Source Code
 
 The **MCST3RX NASCAR Save Editor is not an open-source project**.
 
-This public repository exists for official compiled releases, downloads, documentation, and release information.
+This public repository exists for official compiled releases, downloads, documentation, bug reports, and release information.
 
 The application source code is maintained separately in a private development repository.
 
