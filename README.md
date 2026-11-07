@@ -2,233 +2,91 @@
 
 **Edit. Customize. Race Your Way.**
 
-The **MCST3RX NASCAR Save Editor** is a free community-built Windows tool for editing supported NASCAR career save data through a safety-focused, easy-to-use interface.
+A community-built Windows editor for **supported NASCAR 25 Career save data**, with guarded editing and backup workflows.
 
-> **Current Release:** v1.0.1  
-> **Current Game Support:** NASCAR 25  
-> **NASCAR 26:** Future / Not Yet Supported  
-> **Platform:** Windows
+> **Release status:** Latest documented public release: v1.0.1. NASCAR 26 is not supported in that release.  
+> **Platform:** Windows x64  
+> **Source code:** Private; not open source
 
 ---
 
 ## 📥 Download
 
-Official builds are distributed through the **Releases** section of this repository.
+Official approved builds are distributed through [GitHub Releases](https://github.com/mcst3rx/MCST3RX-NASCAR-Save-Editor-Releases/releases). Choose the installer or portable ZIP from the release assets when offered.
 
-➡️ **Go to Releases:**  
-https://github.com/mcst3rx/mcst3rx-nascar-save-editor-releases/releases
-
-For each release, download the installer or portable ZIP provided under **Assets**.
-
-### Which Download Should I Use?
-
-**Installer** — Recommended for most users.  
-Download the Setup `.exe` and install the editor normally.
-
-**Portable** — No installation required.  
-Download the Portable `.zip`, extract it to a folder, and launch the included application.
-
-### Verify Your Download
-
-Official releases may include SHA-256 hashes so downloaded files can be verified against the published release.
-
-Only download the MCST3RX NASCAR Save Editor from this official repository or another official MCST3RX distribution location.
+Verify any published SHA-256 checksum and use only official MCST3RX distribution channels. Never disable security software to run an unsigned executable.
 
 ---
 
 ## ✨ Features
 
-The editor currently provides supported tools for NASCAR 25 Career saves, including:
+- Career Money, REP, series Work Points, and supported R&D Points
+- Eligible parts/inventory quantity, repair and removal workflows
+- Pending Changes, Review, Revert, Save Changes, Save As, backups and Recent Saves
+- Diagnostics and a NASCAR-themed desktop interface
 
-- Career profile and save information
-- Money editing
-- REP Points editing
-- Series Work Points editing
-- Xfinity and Cup R&D Points editing
-- Parts and inventory management
-- Inventory quantity editing
-- Supported Part repair workflows
-- Eligible Part removal
-- Pending Changes review
-- Revert-before-save workflow
-- Automatic save backups
-- Live-save protection and validation
-- Save As support for copied saves
-- Recent save history
-- Responsive NASCAR-themed interface
-
-Support is intentionally conservative. Fields and operations that have not been sufficiently validated are not presented as supported editing features.
+Only specifically qualified save structures and operations are enabled.
 
 ---
 
-## 🏎️ Supported Games
+## 🎮 Supported games and scope
 
-| Game | Status |
-| --- | --- |
-| NASCAR 25 | ✅ Supported |
-| NASCAR 26 | 🔜 Future / Not Yet Supported |
-
-NASCAR 26 support will only be added after its save formats and editing behavior have been researched and validated.
+| Game | Release support |
+|---|---|
+| NASCAR 25 | Supported save states only |
+| NASCAR 26 | Not supported by v1.0.1; future research |
 
 ---
 
-## 🛡️ Save Safety
+## 🛡️ Safety and limitations
 
-Save integrity is a core part of the editor.
-
-The application uses safeguards including:
-
-- verified backups before supported live-save writes
-- staged changes before writing
-- review and revert workflows
-- output validation
-- save reparsing after supported modifications
-- protection of unsupported or ineligible data
-- refusal to write when final validation fails
-
-Even with these protections, keeping your own backup of important saves is strongly recommended.
+Keep an independent save backup, close the game before editing, and review staged changes before saving. Unsupported or stale states may be refused. Some repair and inventory operations have narrow preconditions and resource budgets. No save editor guarantees zero risk.
 
 ---
 
-## 🚀 Installing
+## 🚀 Installing and getting started
 
-### Installer
+**Installer:** Download the approved Setup EXE, run it, then open a supported save.
 
-1. Download the latest installer from **Releases**.
-2. Run the installer.
-3. Launch **MCST3RX NASCAR Save Editor**.
-4. Open a supported NASCAR save.
-5. Review detected save information before making changes.
-
-### Portable Version
-
-If a portable ZIP is provided:
-
-1. Download the ZIP.
-2. Extract it to a folder.
-3. Launch the included executable.
-
-Do not run the application directly from inside the ZIP archive.
+**Portable:** Extract the full ZIP before launching the included EXE. Do not run from inside the archive. Review the detected Career and staged changes before saving.
 
 ---
 
-## 📝 Release Notes
+## 📝 Release notes
 
-Every public release will include notes describing:
-
-- new features
-- improvements
-- bug fixes
-- newly supported functionality
-- compatibility changes
-- important known limitations
-
-Older builds remain documented through GitHub Releases.
+Published release notes identify the application version, supported games/builds, new features, fixes, compatibility changes, and known limitations. A planned or historically tested feature is not automatically a feature of the latest published build.
 
 ---
 
-## 💬 Bug Reports & Feature Requests
+## 💬 Bug reports and feature requests
 
-Found a problem with the MCST3RX NASCAR Save Editor or have an idea for an improvement?
-
-➡️ **Submit an Issue:**  
-https://github.com/mcst3rx/mcst3rx-nascar-save-editor-releases/issues/new/choose
-
-Choose the appropriate template:
-
-- 🐛 **Bug Report** — Report a problem or something that is not working as expected.
-- 💡 **Feature Request** — Suggest a new feature, improvement, or workflow.
-
-### 🐛 Reporting a Bug
-
-Before submitting a bug report:
-
-- Make sure you are using the latest official release.
-- Check existing issues to see whether the problem has already been reported.
-- Include your editor version.
-- Select the affected game and area of the editor.
-- Explain the steps needed to reproduce the problem.
-- Include the exact error message when applicable.
-- Attach screenshots or a short recording when useful.
-- Keep a backup of important save files.
-
-Please do not publicly upload private or sensitive files.
-
-If a save file is eventually required for investigation, wait until MCST3RX specifically requests one and follow the provided instructions.
-
-> **NASCAR 26:** Functionality should not be reported as broken while NASCAR 26 remains marked **Future / Not Yet Supported**.
-
-### 💡 Requesting a Feature
-
-Before submitting a feature request:
-
-- Check existing issues to see whether the idea has already been suggested.
-- Include your editor version.
-- Select the affected game or area of the editor.
-- Clearly describe the feature or improvement you would like.
-- Explain why the feature would be useful.
-- Describe how you imagine it working.
-- Include screenshots, mockups, examples, or references when helpful.
-- Submit one feature request per issue so each idea can be reviewed separately.
-
-Feature requests are suggestions and are not guaranteed to be implemented.
-
-> **NASCAR 26:** Requests that depend on NASCAR 26 save editing may be deferred until its save format and editing behavior have been researched and validated.
+[Open an issue](https://github.com/mcst3rx/MCST3RX-NASCAR-Save-Editor-Releases/issues/new/choose) to report a reproducible problem or suggest an improvement. Include the application version, game/version, expected and actual behavior, reproduction steps, and useful screenshots. Check existing issues first. Do not post private saves, copyrighted game assets, credentials, or sensitive logs publicly. Suggestions do not guarantee implementation.
 
 ---
 
-## 🔒 Source Code
+## 🔒 Source code and licensing
 
-The **MCST3RX NASCAR Save Editor is not an open-source project**.
+This is a compiled-release and community-support repository; application source is maintained privately in `MCST3RX-NASCAR-Save-Editor-Source`. No open-source license is granted by this README. The applicable license governs usage and redistribution; verify that license is included before distributing a build.
 
-This public repository exists for official compiled releases, downloads, documentation, bug reports, and release information.
-
-The application source code is maintained separately in a private development repository.
-
-See [`LICENSE.md`](LICENSE.md) for permitted use and distribution terms.
-
----
-
-## ☕ Support MCST3RX
-
-All MCST3RX tools are developed for the community and provided free of charge.
-
-If you enjoy the project and would like to support continued development:
-
-**Ko-fi:** https://ko-fi.com/mcst3rx
-
-Support is completely optional and never unlocks or gates application features.
+The documented NASCAR Save Editor license describes proprietary freeware for personal, non-commercial use. See the repository’s `LICENSE.md` for the full terms. Ko-fi support is optional and does not unlock features.
 
 ---
 
 ## 🌐 Community
 
-**YouTube**  
-https://www.youtube.com/@mcst3rx
-
-**Discord**  
-https://discord.gg/TyVaFfSsnT
-
-Follow development updates, tutorials, feature previews, release announcements, and future NASCAR game support.
+- [GitHub](https://github.com/mcst3rx)
+- [Discord](https://discord.gg/TyVaFfSsnT)
+- [YouTube](https://www.youtube.com/@mcst3rx)
+- [Ko-fi](https://ko-fi.com/mcst3rx)
 
 ---
 
-## ⚠️ Disclaimer
+## ⚠️ Independence and trademarks
 
-MCST3RX NASCAR Save Editor is an independent community-made tool.
-
-It is not affiliated with, endorsed by, sponsored by, or associated with NASCAR, iRacing, Motorsport Games, game publishers, racing teams, drivers, manufacturers, or other official rights holders.
-
-NASCAR and other third-party names, trademarks, logos, and game assets remain the property of their respective owners.
-
-Always keep backups of important save files.
+MCST3RX develops independent community software and is not affiliated with or endorsed by the relevant game publishers, sports leagues, teams, manufacturers, or rights holders. Third-party trademarks, games, and assets belong to their owners. Third-party dependencies retain their respective licenses.
 
 ---
 
 ## ❤️ Built for the Community
 
-**MCST3RX Tools**
-
-*Built by players, for the community.*
-
-**Race. Edit. Customize. Repeat.**
+**MCST3RX Tools** — *Built by players, for the community.*
